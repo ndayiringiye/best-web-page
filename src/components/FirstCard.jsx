@@ -1,5 +1,4 @@
 import ButtonCard from "./ButtonCard";
-import Footer from "./Footer";
 import Head from "./Head";
 import SecondCard from "./SecondCard";
 
@@ -23,7 +22,6 @@ const FirstCard = ({ img, description }) => {
                 </div>
             </div>
             <ButtonCard />
-            <Footer />
         </div>
     )
 };
