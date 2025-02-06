@@ -1,3 +1,4 @@
+import ButtonCard from "./components/ButtonCard"
 import FirstCard from "./components/FirstCard"
 
 const App = () => {
@@ -5,7 +6,10 @@ const App = () => {
   return (
     <div>
       <FirstCard img ={image} description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla." />
-        
+      <div>
+      <ButtonCard />
+
+      </div>
     </div>
   )
 }
