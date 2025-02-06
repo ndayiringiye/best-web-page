@@ -2,7 +2,7 @@
 const SecondCard = ({ sketing, sub }) => {
     return (
         <div>
-        <div className="h-130  bg-[#C8ADE9] mt-10 py-10 px-5 right-[-10] ">
+        <div className="  bg-[#C8ADE9] mt-10 py-10 px-5 right-[-10] ">
             <div className="px-16 flex justify-center">
                 <p className="text-white font-semibold  text-center text-roboto ">{sub}</p>
             </div>
